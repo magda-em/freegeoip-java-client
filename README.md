@@ -18,6 +18,6 @@ repositories {
 }
 
 dependencies {
-   compile 'com.fabahaba:freegeoip-java-client:0.1.0'
+   compile 'com.fabahaba:freegeoip-java-client:0.1.1'
 }
 ```
