@@ -73,7 +73,7 @@ bintray {
     pkg {
         repo = 'libs'
         name = project.name
-        desc = 'Reusable Guava/Java Framework Utils'
+        desc = 'freegeoip java client'
         websiteUrl = 'https://github.com/jamespedwards42/' + project.name
         vcsUrl = 'https://github.com/jamespedwards42/' + project.name
         issueTrackerUrl = 'https://github.com/jamespedwards42/' + project.name + '/issues'
