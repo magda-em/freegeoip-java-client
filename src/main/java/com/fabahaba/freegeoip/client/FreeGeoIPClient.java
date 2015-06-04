@@ -5,7 +5,7 @@ import com.fabahaba.freegeoip.data.GeoIP;
 
 public class FreeGeoIPClient extends RateLimitedFeignClient<FreeGeoIP> implements FreeGeoIP {
 
-  public static final String DEFAULT_URL = "http://freegeoip.net/";
+  public static final String DEFAULT_URL = "http://freegeoip.net";
 
   public FreeGeoIPClient(final double maxRequestsPerSecond) {
     this(DEFAULT_URL, maxRequestsPerSecond);

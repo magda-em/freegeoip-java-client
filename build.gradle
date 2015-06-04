@@ -35,6 +35,8 @@ repositories {
 
 dependencies {
    compile 'com.fabahaba:fava:+'
+   compile 'com.netflix.feign:feign-ribbon:+'
+   
    testCompile 'junit:junit:+'
 }
 
