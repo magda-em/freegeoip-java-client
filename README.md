@@ -1,4 +1,4 @@
-#freegeoip java client [![Build Status](https://travis-ci.org/jamespedwards42/freegeoip-java-client.svg?branch=master)](https://travis-ci.org/jamespedwards42/freegeoip-java-client) [![JCenter](https://api.bintray.com/packages/jamespedwards42/libs/freegeoip-java-client/images/download.svg) ](https://bintray.com/jamespedwards42/libs/freegeoip-java-client/_latestVersion) [![License](http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat) ](http://www.apache.org/licenses/LICENSE-2.0)
+#[freegeoip](https://github.com/fiorix/freegeoip) java client [![Build Status](https://travis-ci.org/jamespedwards42/freegeoip-java-client.svg?branch=master)](https://travis-ci.org/jamespedwards42/freegeoip-java-client) [![JCenter](https://api.bintray.com/packages/jamespedwards42/libs/freegeoip-java-client/images/download.svg) ](https://bintray.com/jamespedwards42/libs/freegeoip-java-client/_latestVersion) [![License](http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat) ](http://www.apache.org/licenses/LICENSE-2.0)
 
 
 ###Usage
