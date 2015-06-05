@@ -11,8 +11,8 @@ final GeoIP myGeoIp = freegeoip.getGeoIP();
 final Coordinate myCoordinates = myGeoIp.getCoordinates();
 ...
 ```
-###Usage
-####Netflix Load Balanced Client
+
+####[Netflix Ribbon](https://github.com/Netflix/ribbon) Load Balanced Client
 ```java
 final String hostPorts = "host1:port1,host2:port2,host3:port3";
 final LoadBalancedFreeGeoIPClient freegeoip = LoadBalancedFreeGeoIPClient.createDefault(hostPorts);

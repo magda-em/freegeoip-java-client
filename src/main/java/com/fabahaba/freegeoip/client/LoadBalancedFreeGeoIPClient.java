@@ -38,10 +38,12 @@ public class LoadBalancedFreeGeoIPClient implements FreeGeoIP {
   }
 
   /**
-   * @see https://github.com/Netflix/ribbon/wiki/Working-with-load-balancers
+   *
    * @param hostPorts comma separated list of host:ports.
-   * @return
-   */
+   * @return a new LoadBalancedFreeGeoIPClient.
+   * @see <a
+   *      href="https://github.com/Netflix/ribbon/wiki/Working-with-load-balancers">github.com/Netflix/ribbon/wiki/Working-with-load-balancers</a>
+   **/
   public static LoadBalancedFreeGeoIPClient createDefault(final String hostPorts) {
     ConfigurationManager.getConfigInstance().setProperty(
         DEFAULT_APPNAME + "." + DEFAULT_NAMESPACE + ".listOfServers", hostPorts);
